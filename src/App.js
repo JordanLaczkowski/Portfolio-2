@@ -2,7 +2,7 @@
 import "./App.css";
 import AboutMe from "./Pages/AboutMe/AboutMe";
 import NavBar from "./Components/NavBar/NavBar";
-// import Portfolio from "./Components/Portfolio/Portfolio";
+import Portfolio from "./Pages/Portfolio/Portfolio.js";
 // import Resume from "./Components/Resume/Resume";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <NavBar />
       <AboutMe />
-      {/* <Portfolio />
-      <Resume /> */}
+      <Portfolio />
+      {/* <Resume /> */}
     </div>
   );
 }
