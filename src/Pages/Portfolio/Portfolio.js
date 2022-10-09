@@ -33,8 +33,12 @@ export default function Portfolio() {
             <h4>{portfolio.Title}</h4>
           </div>
           <img src={portfolio.Image} />
-          <a href={portfolio.liveLink}>deployedSite</a>
-          <a href={portfolio.repo}>GitHub</a>
+          <a href={portfolio.liveLink} target="_blank">
+            deployedSite
+          </a>
+          <a href={portfolio.repo} target="_blank">
+            GitHub
+          </a>
         </div>
       ))}
     </div>

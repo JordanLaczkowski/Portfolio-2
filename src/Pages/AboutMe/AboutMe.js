@@ -1,7 +1,13 @@
 import "./AboutMe.css";
 import { TiHtml5, TiCss3 } from "react-icons/ti";
-import { DiJavascript, DiReact } from "react-icons/di";
-import { SiMysql, SiNodedotjs, SiExpress, SiMongodb } from "react-icons/si";
+import { DiJavascript, DiReact, DiNpm } from "react-icons/di";
+import {
+  SiMysql,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiBootstrap,
+} from "react-icons/si";
 
 import me from "./me.png";
 
@@ -44,6 +50,14 @@ export default function AboutMe() {
         <div className="appIcons">
           <DiReact className="icon" />
           React
+        </div>
+        <div className="appIcons">
+          <SiBootstrap className="icon" />
+          Bootstrap
+        </div>
+        <div className="appIcons">
+          <DiNpm className="icon" />
+          NPM
         </div>
       </div>
     </div>

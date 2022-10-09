@@ -1,0 +1,25 @@
+.containerFooter {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+
+.iconFooter {
+  color: darkblue;
+  height: 10%;
+  width: 25%;
+  margin: 20px;
+}
+
+.linkFooter {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
