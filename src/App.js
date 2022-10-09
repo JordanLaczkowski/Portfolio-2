@@ -14,7 +14,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<AboutMe />} />
-          <Route path="/contact" element={<ContactMe />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/contactme" element={<ContactMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           {/* <Route path="/resume" element={<Resume />} /> */}
         </Routes>

@@ -3,17 +3,24 @@
   display: flex;
   flex-direction: row;
   margin: 5px;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .iconFooter {
   color: darkblue;
-  text-align: center;
-  margin: 20px;
+  width: 100px;
+  height: 30px;
 }
 
 .linkFooter {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  text-align: center;
+  width: 100px;
+  text-align: left;
+  border: 0px;
 }
 
 @media screen and (max-width: 768px) {

@@ -15,8 +15,13 @@ export default function AboutMe() {
   return (
     <div className="containerAboutMe">
       <img className="profile" src={me} alt="Jordan Laczkowski"></img>
-      <p>Welcome!</p>
-      <p>I am a current student in DU's Full Stack Web Development Bootcamp.</p>
+      <div className="welcomeBlock">
+        <p>Welcome!</p>
+        <p>
+          I am a current student in DU's Full Stack Web Development Bootcamp.
+        </p>
+      </div>
+
       <h2>Technologies and Languages</h2>
       <div className="reactIcons">
         <div className="appIcon">
