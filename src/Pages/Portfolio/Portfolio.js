@@ -30,16 +30,18 @@ export default function Portfolio() {
       {portfolio.map((portfolio) => (
         <div className="portfolioCard">
           <div>
-            <a href={portfolio.liveLink} target="_blank">
-              {portfolio.Title}
-            </a>
-            <h4>{portfolio.Title}</h4>
+            <div className="title">
+              <a href={portfolio.liveLink} target="_blank">
+                {portfolio.Title}
+              </a>
+            </div>
+            <div className="code">
+              <a href={portfolio.repo} target="_blank">
+                Code
+              </a>
+            </div>
           </div>
-          <img src={portfolio.Image} />
-
-          <a href={portfolio.repo} target="_blank">
-            Code
-          </a>
+          <img className="image" src={portfolio.Image} />
         </div>
       ))}
     </div>

@@ -4,11 +4,19 @@
   flex-wrap: wrap;
 }
 
-.portfolioCard {
-  display: flex;
-  flex-wrap: wrap;
-  height: 25%;
-  width: 25%;
+/* .portfolioCard {
+} */
+
+.title {
+  text-align: center;
+}
+
+.code {
+  text-align: center;
+}
+
+.image {
+  max-width: 800px;
 }
 
 @media screen and (max-width: 768px) {

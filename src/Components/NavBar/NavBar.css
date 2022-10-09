@@ -1,11 +1,17 @@
 .containerNavBar {
   display: flex;
+  visibility: hidden;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3%;
+  height: 60px;
+  align-items: center;
 }
 
-/* .iconNav {
-} */
+.iconNavHB {
+  margin: 5%;
+}
 
 /* .navBtn {
 }

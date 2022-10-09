@@ -1,12 +1,5 @@
-.containerAboutMe {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 .welcomeBlock {
-  width: 80%;
-  margin-left: 3%;
+  justify-content: center;
 }
 
 .reactIcons {
@@ -32,7 +25,8 @@
 .profile {
   border-radius: 100%;
   width: 10%;
-  margin-left: 4%;
+  height: 10%;
+  justify-content: center;
 }
 
 .navBar-Container {

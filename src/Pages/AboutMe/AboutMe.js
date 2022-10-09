@@ -14,7 +14,9 @@ import me from "./me.png";
 export default function AboutMe() {
   return (
     <div className="containerAboutMe">
-      <img className="profile" src={me} alt="Jordan Laczkowski"></img>
+      <div>
+        <img className="profile" src={me} alt="Jordan Laczkowski"></img>
+      </div>
       <div className="welcomeBlock">
         <p>Welcome!</p>
         <p>

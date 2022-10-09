@@ -1,7 +1,12 @@
-.containerContactMe {
+/* .containerContactMe {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+} */
+
+.form-control {
+  display: flex;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 768px) {
