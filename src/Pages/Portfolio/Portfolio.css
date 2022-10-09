@@ -4,6 +4,13 @@
   flex-wrap: wrap;
 }
 
+.portfolioCard {
+  display: flex;
+  flex-wrap: wrap;
+  height: 25%;
+  width: 25%;
+}
+
 @media screen and (max-width: 768px) {
   main,
   nav {
