@@ -1,4 +1,4 @@
-// import logo from "./logo.svg";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import AboutMe from "./Pages/AboutMe/AboutMe";
 import NavBar from "./Components/NavBar/NavBar";
@@ -9,14 +9,19 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <AboutMe />
-      <Portfolio />
-      <ContactMe />
-      {/* <Resume /> */}
-      <Footer />
-    </div>
+    <Router>
+      <div className="">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/contact" element={<ContactMe />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          {/* <Route path="/resume" element={<Resume />} /> */}
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
