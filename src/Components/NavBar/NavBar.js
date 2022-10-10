@@ -21,16 +21,16 @@ export default function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav nav-item">
-            <Link to={{ pathname: "/aboutme" }}>
+            <Link to={{ pathname: "/aboutme" }} className="navBtn">
               <li>About Me</li>
             </Link>
-            <Link to={{ pathname: "/portfolio" }}>
+            <Link to={{ pathname: "/portfolio" }} className="navBtn">
               <li>Portfolio</li>
             </Link>
-            <Link to={{ pathname: "/contactme" }}>
+            <Link to={{ pathname: "/contactme" }} className="navBtn">
               <li>Contact Me</li>
             </Link>
-            <Link to={{ pathname: "/resume" }}>
+            <Link to={{ pathname: "/resume" }} className="navBtn">
               <li>Resume</li>
             </Link>
             {/* <Link to={{ pathname: "/portfolio" }}>
