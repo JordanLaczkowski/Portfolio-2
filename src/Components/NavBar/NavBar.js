@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -19,31 +20,32 @@ export default function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a
-                className="nav-link active"
-                aria-current="page"
-                href="/aboutme"
-              >
-                About Me
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/portfolio">
-                Portfolio
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contactme">
-                Contact Me
-              </a>
-            </li>
+          <ul className="navbar-nav nav-item">
+            <Link to={{ pathname: "/aboutme" }}>
+              <li>About Me</li>
+            </Link>
+            <Link to={{ pathname: "/portfolio" }}>
+              <li>Portfolio</li>
+            </Link>
+            <Link to={{ pathname: "/contactme" }}>
+              <li>Contact Me</li>
+            </Link>
+            <Link to={{ pathname: "/resume" }}>
+              <li>Resume</li>
+            </Link>
+            {/* <Link to={{ pathname: "/portfolio" }}>
+              <li className="nav-item nav-link"></li>
+              <li className="nav-item">
+                <a className="nav-link" href="/contactme">
+                  Contact Me
+                </a>
+              </li>
+            </Link>
             <li className="nav-item">
               <a class="nav-link" href="/resume">
                 Resume
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
