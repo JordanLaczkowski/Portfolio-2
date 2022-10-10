@@ -15,10 +15,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
-          <Route
-            path="https://jordanlaczkowski.github.io/Portfolio-2/"
-            element={<AboutMe />}
-          />
+          <Route path="/Portfolio-2" element={<AboutMe />} />
           <Route path="/" element={<AboutMe />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contactme" element={<ContactMe />} />
