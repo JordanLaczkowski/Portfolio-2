@@ -20,7 +20,13 @@
 
 # description
 
-This application uses React to show a portfolio about myself
+This application uses React to show a portfolio about myself. In the application, you can view an About Me, Portfolio, Contact Me, and Resume page.
+In the About Me is just a brief description of what I have learned with technologies and languages. It also has links to some social media accounts.
+In the Portfolio, I have displayed screenshots of 3 projects/homework I have completed and feel proud about. The link to visit the website and the repository are also available on the page.
+In the Contact Me, you can enter your name, email, and write a comment. It also shows my contact information to get in contact with me directly.
+Lastly, the Resume part has a screen shot of my most recent Resume. It also has a link next to it to download the PDF. At the bottom of the page, I have also added a few proficiencies.
+
+Enjoy!
 
 # installation
 
