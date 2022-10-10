@@ -31,12 +31,12 @@ export default function Portfolio() {
         <div className="portfolioCard">
           <div>
             <div className="title">
-              <a href={portfolio.liveLink} target="_blank">
+              <a href={portfolio.liveLink} target="_blank" rel="noreferrer">
                 {portfolio.Title}
               </a>
             </div>
             <div className="code">
-              <a href={portfolio.repo} target="_blank">
+              <a href={portfolio.repo} target="_blank" rel="noreferrer">
                 Code
               </a>
             </div>

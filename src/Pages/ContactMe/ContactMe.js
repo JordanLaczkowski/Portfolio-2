@@ -15,6 +15,7 @@ export default function ContactMe() {
           className="form-control"
           id="exampleFormControlInput1"
           placeholder="John"
+          required
         />
       </div>
       <div className="mb-3">

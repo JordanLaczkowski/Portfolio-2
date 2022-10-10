@@ -15,16 +15,16 @@ export default function AboutMe() {
   return (
     <div className="containerAboutMe">
       <div>
+        <h1>Welcome to Jordan Laczkowski's React Portfolio!</h1>
         <img className="profile" src={me} alt="Jordan Laczkowski"></img>
       </div>
       <div className="welcomeBlock">
-        <p>Welcome!</p>
         <p>
-          I am a current student in DU's Full Stack Web Development Bootcamp.
+          🔭 I'm currently in school at DU in their Full Stack Web Development.
         </p>
       </div>
 
-      <h2>Technologies and Languages</h2>
+      <h3>Technologies and Languages</h3>
       <div className="reactIcons">
         <div className="appIcon">
           <TiHtml5 className="icon" />
