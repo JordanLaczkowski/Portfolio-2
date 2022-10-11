@@ -2,6 +2,9 @@ import "./Portfolio.css";
 import fuzzyFriendFinder from "./fuzzy-friend-finder.png";
 import cooksKitchen from "./cooks-kitchen.png";
 import teamprofilegenerator from "./team-profile-generator.png";
+import employeeTracker from "./employee-tracker.png";
+import codingQuiz from "./coding-quiz.png";
+import weatherDashboard from "./weather-dashboard.png";
 
 export default function Portfolio() {
   const portfolio = [
@@ -22,6 +25,24 @@ export default function Portfolio() {
       Image: teamprofilegenerator,
       liveLink: "https://jordanlaczkowski.github.io/Team-Profile-Generator/",
       repo: "https://github.com/JordanLaczkowski/Team-Profile-Generator",
+    },
+    {
+      Title: "Employee Tracker",
+      Image: employeeTracker,
+      liveLink: "https://jordanlaczkowski.github.io/Employee-Tracker/",
+      repo: "https://github.com/JordanLaczkowski/Employee-Tracker",
+    },
+    {
+      Title: "Coding Quiz",
+      Image: codingQuiz,
+      liveLink: "https://jordanlaczkowski.github.io/Coding-Quiz/",
+      repo: "https://github.com/JordanLaczkowski/Coding-Quiz",
+    },
+    {
+      Title: "Weather Dashboard",
+      Image: weatherDashboard,
+      liveLink: "https://jordanlaczkowski.github.io/Weather-Dashboard/",
+      repo: "https://github.com/JordanLaczkowski/Weather-Dashboard",
     },
   ];
 
