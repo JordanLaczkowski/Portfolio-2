@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio-2/static/css/main.46f88895.css",
-    "main.js": "/Portfolio-2/static/js/main.9b6e696d.js",
+    "main.js": "/Portfolio-2/static/js/main.5c2f8eb0.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Portfolio-2/static/js/787.c4e7f8f9.chunk.js",
     "static/media/me.png": "/Portfolio-2/static/media/me.3b175ac7977c1ea7f6cc.png",
     "static/media/cooks-kitchen.png": "/Portfolio-2/static/media/cooks-kitchen.a8a26392e740601d877e.png",
     "static/media/fuzzy-friend-finder.png": "/Portfolio-2/static/media/fuzzy-friend-finder.2078eb1834eb7dac07d3.png",
+    "static/media/weather-dashboard.png": "/Portfolio-2/static/media/weather-dashboard.a5eca4b24f2e9769a0fe.png",
     "static/media/resume.png": "/Portfolio-2/static/media/resume.492dc58bc89cd3d717db.png",
     "static/media/updatedresume.pdf": "/Portfolio-2/static/media/updatedresume.c912d6afc007edbec4ec.pdf",
+    "static/media/employee-tracker.png": "/Portfolio-2/static/media/employee-tracker.7815a5771b3c955f779b.png",
+    "static/media/coding-quiz.png": "/Portfolio-2/static/media/coding-quiz.5a8ad5fe1435e4b5381e.png",
     "static/media/team-profile-generator.png": "/Portfolio-2/static/media/team-profile-generator.bfcfd5f51fb71917c248.png",
     "index.html": "/Portfolio-2/index.html",
     "main.46f88895.css.map": "/Portfolio-2/static/css/main.46f88895.css.map",
-    "main.9b6e696d.js.map": "/Portfolio-2/static/js/main.9b6e696d.js.map",
+    "main.5c2f8eb0.js.map": "/Portfolio-2/static/js/main.5c2f8eb0.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Portfolio-2/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46f88895.css",
-    "static/js/main.9b6e696d.js"
+    "static/js/main.5c2f8eb0.js"
   ]
 }
