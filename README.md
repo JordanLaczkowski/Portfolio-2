@@ -28,6 +28,8 @@ Lastly, the Resume part has a screen shot of my most recent Resume. It also has 
 
 Enjoy!
 
+Check out the deployed site here! https://jordanlaczkowski.github.io/Portfolio-2/
+
 # installation
 
 #usage
