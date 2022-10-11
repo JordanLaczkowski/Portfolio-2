@@ -30,6 +30,9 @@ Enjoy!
 
 Check out the deployed site here! https://jordanlaczkowski.github.io/Portfolio-2/
 
+![portfolio-2](https://user-images.githubusercontent.com/109110372/195142276-a12e1d7a-827c-44d8-ad1a-16acb6c26b3c.png)
+
+
 # installation
 
 #usage
