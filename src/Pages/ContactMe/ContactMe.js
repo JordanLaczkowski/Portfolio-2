@@ -4,10 +4,10 @@ export default function ContactMe() {
   return (
     <>
       <form>
-        <div className="containerContactMe">
+        {/* <div className="containerContactMe">
           <h3>{"Leave a Comment "}</h3>
-        </div>
-        <div className="mb-3">
+        </div> */}
+        {/* <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">
             First Name
           </label>
@@ -18,8 +18,8 @@ export default function ContactMe() {
             placeholder="John"
             required
           />
-        </div>
-        <div className="mb-3">
+        </div> */}
+        {/* <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">
             Last Name
           </label>
@@ -30,8 +30,8 @@ export default function ContactMe() {
             placeholder="Doe"
             required
           />
-        </div>
-        <div className="mb-3">
+        </div> */}
+        {/* <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">
             Email address
           </label>
@@ -42,8 +42,8 @@ export default function ContactMe() {
             placeholder="name@example.com"
             required
           />
-        </div>
-        <div className="mb-3">
+        </div> */}
+        {/* <div className="mb-3">
           <label for="exampleFormControlTextarea1" className="form-label">
             Leave a Comment
           </label>
@@ -54,10 +54,10 @@ export default function ContactMe() {
             rows="3"
           ></textarea>
           <button>Submit</button>
-        </div>
+        </div> */}
       </form>
-      <p>Phone: (303) 907-0825</p>
-      <p>Email: jordan.laczkowski23@gmail.com</p>
+      <h1>Phone: (303) 907-0825</h1>
+      <h1>Email: jordan.laczkowski23@gmail.com</h1>
     </>
   );
 }
