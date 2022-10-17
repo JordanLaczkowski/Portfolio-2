@@ -10,6 +10,12 @@ import tripSplit from "./trip-split.png";
 export default function Portfolio() {
   const portfolio = [
     {
+      Title: "Trip$plit",
+      Image: tripSplit,
+      liveLink: "https://trip-split-atoz.herokuapp.com/",
+      repo: "https://github.com/JordanLaczkowski/trip_split",
+    },
+    {
       Title: "Fuzzy Friend Finder",
       Image: fuzzyFriendFinder,
       liveLink: "https://jordanlaczkowski.github.io/fuzzy-friend-finder/",
@@ -20,12 +26,6 @@ export default function Portfolio() {
       Image: cooksKitchen,
       liveLink: "https://agile-shore-26692.herokuapp.com/",
       repo: "https://github.com/JordanLaczkowski/5-cooks-in-the-kitchen",
-    },
-    {
-      Title: "Trip$plit",
-      Image: tripSplit,
-      liveLink: "https://trip-split-atoz.herokuapp.com/",
-      repo: "https://github.com/JordanLaczkowski/trip_split",
     },
     {
       Title: "Team Profile Generator",
