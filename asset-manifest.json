@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-2/static/css/main.46f88895.css",
-    "main.js": "/Portfolio-2/static/js/main.f87153f1.js",
+    "main.js": "/Portfolio-2/static/js/main.e112605b.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Portfolio-2/static/js/787.c4e7f8f9.chunk.js",
     "static/media/me.png": "/Portfolio-2/static/media/me.3b175ac7977c1ea7f6cc.png",
     "static/media/cooks-kitchen.png": "/Portfolio-2/static/media/cooks-kitchen.a8a26392e740601d877e.png",
@@ -11,14 +11,15 @@
     "static/media/updatedresume.pdf": "/Portfolio-2/static/media/updatedresume.a0b525438919b83925b0.pdf",
     "static/media/employee-tracker.png": "/Portfolio-2/static/media/employee-tracker.7815a5771b3c955f779b.png",
     "static/media/coding-quiz.png": "/Portfolio-2/static/media/coding-quiz.5a8ad5fe1435e4b5381e.png",
+    "static/media/trip-split.png": "/Portfolio-2/static/media/trip-split.c8a53fbe8b088ab5bd53.png",
     "static/media/team-profile-generator.png": "/Portfolio-2/static/media/team-profile-generator.bfcfd5f51fb71917c248.png",
     "index.html": "/Portfolio-2/index.html",
     "main.46f88895.css.map": "/Portfolio-2/static/css/main.46f88895.css.map",
-    "main.f87153f1.js.map": "/Portfolio-2/static/js/main.f87153f1.js.map",
+    "main.e112605b.js.map": "/Portfolio-2/static/js/main.e112605b.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Portfolio-2/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46f88895.css",
-    "static/js/main.f87153f1.js"
+    "static/js/main.e112605b.js"
   ]
 }
