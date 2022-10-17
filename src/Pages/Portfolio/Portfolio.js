@@ -5,6 +5,7 @@ import teamprofilegenerator from "./team-profile-generator.png";
 import employeeTracker from "./employee-tracker.png";
 import codingQuiz from "./coding-quiz.png";
 import weatherDashboard from "./weather-dashboard.png";
+import tripSplit from "./trip-split.png";
 
 export default function Portfolio() {
   const portfolio = [
@@ -19,6 +20,12 @@ export default function Portfolio() {
       Image: cooksKitchen,
       liveLink: "https://agile-shore-26692.herokuapp.com/",
       repo: "https://github.com/JordanLaczkowski/5-cooks-in-the-kitchen",
+    },
+    {
+      Title: "Trip$plit",
+      Image: tripSplit,
+      liveLink: "https://trip-split-atoz.herokuapp.com/",
+      repo: "https://github.com/JordanLaczkowski/trip_split",
     },
     {
       Title: "Team Profile Generator",
